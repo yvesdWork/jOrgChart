@@ -119,11 +119,10 @@
     }
     // Draw the node
     // Get the contents - any markup except li and ul allowed
-    var $nodeContent = $node.clone()
-                            .children("ul,li")
-                            .remove()
-                            .end()
-                            .html();
+    var $nodeContent = $node.children()
+                            .not("ul")
+                            .not("li")
+                            .end();
   
       //Increaments the node count which is used to link the source list and the org chart
     nodeCount++;
