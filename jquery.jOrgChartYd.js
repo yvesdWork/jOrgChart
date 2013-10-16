@@ -1,5 +1,9 @@
 /**
  * jQuery org-chart/tree plugin.
+ * 
+ * Adaptation by Yves Dessertine (https://github.com/yvesdWork/jOrgChartYd)
+ * Based on Wes Nolte's jOrgChart Plugin.
+ * --
  *
  * Author: Wes Nolte
  * http://twitter.com/wesnolte
